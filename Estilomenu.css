@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+/* Estilos para el menú */
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+
+#boton {
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
+}
+
+#boton li {
+    display: inline;
+    text-align: right;
+}
+
+#boton li a {
+    display: inline;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+}
+
+#boton li a:hover {
+    background-color: #2586d7;
+    margin-top: 2px;
+    padding-bottom: 12px;
+}
+
+/* Estilos para el menú vertical */
+#menu2 {
+    position: absolute;
+    top: 18%; /* Ajuste hacia arriba */
+    left: 10%;
+    height: 70%;
+    width: 15%;
+    background-color: #D9D9D9;
+    color: #454545;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#menu2 li {
+    display: block;
+    list-style: none;
+    padding: 8px;
+    font: bold 11px verdana, sans-serif;
+}
+
+#menuvertical li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#menuvertical li a:hover {
+    background-color: white;
+    margin-top: 6px;
+    padding-bottom: 5px;
+}
+
+/* Estilos para el banner */
+#banner {
+    font: bold 39px 'Broadway', sans-serif;
+    text-align: center;
+    color: pink;
+    margin-top: 5px; /* Ajuste para subir el banner */
+}
+
+/* Estilos para la imagen (ajuste) */
+#imagen {
+    position: absolute;
+    top: 25%; /* Ajuste hacia arriba */
+    left: 60%;
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para el contenido principal */
+#presenta {
+    position: absolute;
+    top: 60%; /* Ajuste hacia arriba */
+    left: 30%;
+    width: 40%;
+    padding: 20px;
+    background-color: gray;
+    color: yellow;
+    border-radius: 14px;
+    text-align: center;
+}
+
+#pie {
+    font: 12px verdana, sans-serif;
+    text-align: center;
+    color: green;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
